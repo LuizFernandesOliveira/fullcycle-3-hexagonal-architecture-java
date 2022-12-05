@@ -4,7 +4,6 @@ import com.fullcycle.application.product.entity.Product;
 import com.fullcycle.application.product.entity.ProductInterface;
 import com.fullcycle.application.product.persistence.ProductPersistenceInterface;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 
 import java.util.UUID;
