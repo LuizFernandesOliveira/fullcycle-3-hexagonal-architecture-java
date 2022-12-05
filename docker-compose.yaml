@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  database:
+    container_name: postgres_product-db
+    image: postgres:12
+    environment:
+      POSTGRES_USER: product-db
+      POSTGRES_PASSWORD: product-db
+    ports:
+      - "5432:5432"
